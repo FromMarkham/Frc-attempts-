@@ -2,6 +2,8 @@
 
 @Override
 public void teleopPeriodic(){
-
+    double leftx
+    double lefty 
+    double rightx
   
 }
