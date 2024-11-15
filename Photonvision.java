@@ -2,8 +2,12 @@
 
 @Override
 public void teleopPeriodic(){
-    double leftx
-    double lefty 
-    double rightx
+    double leftx= -nameofcontroller.getleftx * linearspeedconstant
+    double lefty= -nameofcontroller.getlefty * alinearspeedconstant
+    double rightx= -nameofcontroller.getrightx * anangularspeedconstant
+
+    Boolean isthetargetvisible=false
+    
+    
   
 }
