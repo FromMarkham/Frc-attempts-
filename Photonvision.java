@@ -7,7 +7,15 @@ public void teleopPeriodic(){
     double rightx= -nameofcontroller.getrightx * anangularspeedconstant
 
     Boolean isthetargetvisible=false
-    
-    
-  
+
+    double yawofthetarget=0.0;
+    var results = camera.getAllUnreadResults();
+
+    if ((!results==empty)){
+
+        if ((results.hasTargets())){
+            
+            
+        }
+    }
 }
