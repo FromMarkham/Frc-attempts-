@@ -13,6 +13,7 @@ public void teleopPeriodic(){
 
     if ((!results==empty)){
 
+        var result=
         if ((results.hasTargets())){
             
             
